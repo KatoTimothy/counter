@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  box-sizing: border-box;
+}
+.wrapper {
+  border: 1px solid lightgray;
+  padding: 25px;
+  margin: 0 auto;
+}
+.container {
+  width: 400px;
+}
+.button {
+  font-weight: bold;
+  width: 30px;
+  padding: 5px 25px;
+  /* margin: 5px 15px; */
+  border-width: 0;
+  border-radius: 2px;
+  text-align: center;
+}
+.button-decrease {
+  background-color: tomato;
+}
+.button-increase {
+  background-color: lightgreen;
+}
+.count {
+  padding: 5px 25px;
+  border-width: 0;
+  /* background-color: lightslategray; */
+  display: inline-block;
+  width: 15px;
+}
